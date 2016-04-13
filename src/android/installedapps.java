@@ -230,7 +230,7 @@ public class installedapps extends CordovaPlugin {
                                  json.put("name", appName).put("activity", appIFormated).put("package", pkgName).put("path", "file://"+appDir+"/icons/"+ pkgName+".png");				                            
 		jArray.put(json);
 								 
-								 for(int i=0; i < jArray.length; i++){
+								 for(int i=0; i < jArray.size(); i++){
     if(jArray[i][2] == "com.chronicles.sb"){}
 	else if(jArray[i][2] == "com.smartOS"){}
     else if(jArray[i][2] == "com.extwebtech.bibliography"){}
@@ -297,7 +297,7 @@ public class installedapps extends CordovaPlugin {
     else if(jArray[i][2] == "com.sbreader"){}
 	else {
 		//jArray2.put(jArray[i]);
-		jArray2[jArray2.length] = jArray[i];
+		jArray2[jArray2.size()] = jArray[i];
 	}
 								 }
                              }
