@@ -202,6 +202,7 @@ public class installedapps extends CordovaPlugin {
                     //end setup            	
                 	
                 	 JSONArray jArray = new JSONArray();
+                	 JSONArray jArray2 = new JSONArray();
 
                      List<ApplicationInfo> packages = pm.getInstalledApplications(PackageManager.GET_META_DATA);
 
@@ -226,9 +227,82 @@ public class installedapps extends CordovaPlugin {
                                  String appIFormated = appIntent[1].substring(0, appIntent[1].length() - 2);
 
                                  JSONObject json = new JSONObject();
-                                 json.put("name", appName).put("activity", appIFormated).put("package", pkgName).put("path", "file://"+appDir+"/icons/"+ pkgName+".png");				
-                                 jArray.put(json);
+                                 json.put("name", appName).put("activity", appIFormated).put("package", pkgName).put("path", "file://"+appDir+"/icons/"+ pkgName+".png");				                            
+		jArray.put(json);
+								 
+								 for(int i=0; i < jArray.length; i++){
+    if(jArray[i].package == 'com.chronicles.sb'){}
+	else if(jArray[i].package == 'com.smartOS'){}
+    else if(jArray[i].package == 'com.extwebtech.bibliography'){}
+    else if(jArray[i].package == 'com.Phaedrus.EarwigFree'){}
+    else if(jArray[i].package == 'com.funbox.englishidioms'){}
+    else if(jArray[i].package == 'binh.app.englishidiom'){}
+    else if(jArray[i].package == 'air.com.revisionbuddies.gcsemaths'){}
+    else if(jArray[i].package == 'com.educationapps.gojimo'){}
+    else if(jArray[i].package == 'com.solvus_lab.android.BibleEN_kjv'){}
+    else if(jArray[i].package == 'org.khanacademy.android'){}
+    else if(jArray[i].package == 'com.learnerscloud.igcsemaths.videos'){}
+    else if(jArray[i].package == 'org.zezi.gb'){}
+    else if(jArray[i].package == 'com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish'){}
+    else if(jArray[i].package == 'com.aspartame.RemindMe'){}
+    else if(jArray[i].package == 'com.zapp2learn.app'){}
+    else if(jArray[i].package == 'com.kuntec.braincafe'){}
+    else if(jArray[i].package == 'com.icenta.sudoku.ui'){}
+    else if(jArray[i].package == 'com.underwater.geoquiz'){}
+    else if(jArray[i].package == 'org.pondar.mathquizfree'){}
+    else if(jArray[i].package == 'air.com.panapps.PeriodicTable'){}
+    else if(jArray[i].package == 'com.microblink.photomath'){}
+    else if(jArray[i].package == 'com.physics.quiz.game1'){}
+    else if(jArray[i].package == 'com.codeansoftware.speakforme'){}
+    else if(jArray[i].package == 'org.urbian.android.quiz.bible.demo'){}
+    else if(jArray[i].package == 'com.socratica.mobile.words'){}
+    else if(jArray[i].package == 'lammar.flags'){}
+    else if(jArray[i].package == 'org.unver.derstakvimi'){}
+    else if(jArray[i].package == 'com.learningmate.goclass.view'){}
+    else if(jArray[i].package == 'org.edx.mobile'){}
+    else if(jArray[i].package == 'de.rakuun.MyClassSchedule.free'){}
+    else if(jArray[i].package == 'com.speedAnatomy.speedAnatomyLite'){}
+    else if(jArray[i].package == 'com.studyblue'){}
+    else if(jArray[i].package == 'com.class123.teacher'){}
+    else if(jArray[i].package == 'com.udacity.android'){}
+    else if(jArray[i].package == 'com.udemy.android'){}
+    else if(jArray[i].package == 'bbc.mobile.news.ww'){}
+    else if(jArray[i].package == 'com.google.android.apps.blogger'){}
+    else if(jArray[i].package == 'com.cnn.mobile.android.phone'){}
+    else if(jArray[i].package == 'com.google.android.apps.plus'){}
+    else if(jArray[i].package == 'com.facebook.katana'){}
+    else if(jArray[i].package == 'com.google.android.youtube'){}
+    else if(jArray[i].package == 'com.skype.raider'){}
+    else if(jArray[i].package == 'com.twitter.android'){}
+    else if(jArray[i].package == 'com.whatsapp'){}
+    else if(jArray[i].package == 'com.mybio.apps'){}
+    else if(jArray[i].package == 'com.school.app'){}
+    else if(jArray[i].package == 'com.flyersoft.moonreader'){}
+    else if(jArray[i].package == 'com.hed.app'){}
+    else if(jArray[i].package == 'com.app.dailymanna2015'){}
+    else if(jArray[i].package == 'com.youth.life'){}	
+    else if(jArray[i].package == 'com.google.android.apps.docs.editors.docs'){}
+    else if(jArray[i].package == 'ng.com.efiko.quiz'){}
+    else if(jArray[i].package == 'com.google.android.apps.classroom'){}
+    else if(jArray[i].package == 'com.gidimo'){}
+    else if(jArray[i].package == 'com.google.android.apps.docs.editors.sheets'){}
+    else if(jArray[i].package == 'com.twitter.android'){}
+    else if(jArray[i].package == 'com.whatsapp'){}
+    else if(jArray[i].package == 'com.facebook.katana'){}
+    else if(jArray[i].package == 'com.linkedin.android'){}
+    else if(jArray[i].package == 'com.google.android.apps.plus'){}
+    else if(jArray[i].package == 'com.bbm'){}
+    else if(jArray[i].package == 'com.tencent.mm'){}
+    else if(jArray[i].package == 'com.skype.raider'){}
+    else if(jArray[i].package == 'com.sbreader'){}
+	else {
+		//jArray2.put(jArray[i]);
+		jArray2[jArray2.length] = jArray[i];
+	}
+								 }
                              }
+							 
+														 
 
                          } catch (Exception e) {
                              // TODO Auto-generated catch block
@@ -237,7 +311,8 @@ public class installedapps extends CordovaPlugin {
 
                      }// Turns the JSON array into a string and returns the value. 
 
-                     String results = jArray.toString();				
+                     // String results = jArray.toString();				
+                     String results = jArray2.toString();				
 
                      try {
 						callbackContext.success(new JSONObject().put("returnVal", results));
