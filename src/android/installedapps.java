@@ -227,81 +227,78 @@ public class installedapps extends CordovaPlugin {
                                  String appIFormated = appIntent[1].substring(0, appIntent[1].length() - 2);
 
                                  JSONObject json = new JSONObject();
-                                 json.put("name", appName).put("activity", appIFormated).put("package", pkgName).put("path", "file://"+appDir+"/icons/"+ pkgName+".png");				                            
-		// jArray.put(json);
-		jArray.add(json);
 								 
-								 arrSize = jArray.size();
-								 for(int i=0; i < arrSize; i++){
-    if(jArray[i][2] == "com.chronicles.sb"){}
-	else if(jArray[i][2] == "com.smartOS"){}
-    else if(jArray[i][2] == "com.extwebtech.bibliography"){}
-    else if(jArray[i][2] == "com.Phaedrus.EarwigFree"){}
-    else if(jArray[i][2] == "com.funbox.englishidioms"){}
-    else if(jArray[i][2] == "binh.app.englishidiom"){}
-    else if(jArray[i][2] == "air.com.revisionbuddies.gcsemaths"){}
-    else if(jArray[i][2] == "com.educationapps.gojimo"){}
-    else if(jArray[i][2] == "com.solvus_lab.android.BibleEN_kjv"){}
-    else if(jArray[i][2] == "org.khanacademy.android"){}
-    else if(jArray[i][2] == "com.learnerscloud.igcsemaths.videos"){}
-    else if(jArray[i][2] == "org.zezi.gb"){}
-    else if(jArray[i][2] == "com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish"){}
-    else if(jArray[i][2] == "com.aspartame.RemindMe"){}
-    else if(jArray[i][2] == "com.zapp2learn.app"){}
-    else if(jArray[i][2] == "com.kuntec.braincafe"){}
-    else if(jArray[i][2] == "com.icenta.sudoku.ui"){}
-    else if(jArray[i][2] == "com.underwater.geoquiz"){}
-    else if(jArray[i][2] == "org.pondar.mathquizfree"){}
-    else if(jArray[i][2] == "air.com.panapps.PeriodicTable"){}
-    else if(jArray[i][2] == "com.microblink.photomath"){}
-    else if(jArray[i][2] == "com.physics.quiz.game1"){}
-    else if(jArray[i][2] == "com.codeansoftware.speakforme"){}
-    else if(jArray[i][2] == "org.urbian.android.quiz.bible.demo"){}
-    else if(jArray[i][2] == "com.socratica.mobile.words"){}
-    else if(jArray[i][2] == "lammar.flags"){}
-    else if(jArray[i][2] == "org.unver.derstakvimi"){}
-    else if(jArray[i][2] == "com.learningmate.goclass.view"){}
-    else if(jArray[i][2] == "org.edx.mobile"){}
-    else if(jArray[i][2] == "de.rakuun.MyClassSchedule.free"){}
-    else if(jArray[i][2] == "com.speedAnatomy.speedAnatomyLite"){}
-    else if(jArray[i][2] == "com.studyblue"){}
-    else if(jArray[i][2] == "com.class123.teacher"){}
-    else if(jArray[i][2] == "com.udacity.android"){}
-    else if(jArray[i][2] == "com.udemy.android"){}
-    else if(jArray[i][2] == "bbc.mobile.news.ww"){}
-    else if(jArray[i][2] == "com.google.android.apps.blogger"){}
-    else if(jArray[i][2] == "com.cnn.mobile.android.phone"){}
-    else if(jArray[i][2] == "com.google.android.apps.plus"){}
-    else if(jArray[i][2] == "com.facebook.katana"){}
-    else if(jArray[i][2] == "com.google.android.youtube"){}
-    else if(jArray[i][2] == "com.skype.raider"){}
-    else if(jArray[i][2] == "com.twitter.android"){}
-    else if(jArray[i][2] == "com.whatsapp"){}
-    else if(jArray[i][2] == "com.mybio.apps"){}
-    else if(jArray[i][2] == "com.school.app"){}
-    else if(jArray[i][2] == "com.flyersoft.moonreader"){}
-    else if(jArray[i][2] == "com.hed.app"){}
-    else if(jArray[i][2] == "com.app.dailymanna2015"){}
-    else if(jArray[i][2] == "com.youth.life"){}	
-    else if(jArray[i][2] == "com.google.android.apps.docs.editors.docs"){}
-    else if(jArray[i][2] == "ng.com.efiko.quiz"){}
-    else if(jArray[i][2] == "com.google.android.apps.classroom"){}
-    else if(jArray[i][2] == "com.gidimo"){}
-    else if(jArray[i][2] == "com.google.android.apps.docs.editors.sheets"){}
-    else if(jArray[i][2] == "com.twitter.android"){}
-    else if(jArray[i][2] == "com.whatsapp"){}
-    else if(jArray[i][2] == "com.facebook.katana"){}
-    else if(jArray[i][2] == "com.linkedin.android"){}
-    else if(jArray[i][2] == "com.google.android.apps.plus"){}
-    else if(jArray[i][2] == "com.bbm"){}
-    else if(jArray[i][2] == "com.tencent.mm"){}
-    else if(jArray[i][2] == "com.skype.raider"){}
-    else if(jArray[i][2] == "com.sbreader"){}
+    if(pkgName == "com.chronicles.sb"){}
+	else if(pkgName == "com.smartOS"){}
+    else if(pkgName == "com.extwebtech.bibliography"){}
+    else if(pkgName == "com.Phaedrus.EarwigFree"){}
+    else if(pkgName == "com.funbox.englishidioms"){}
+    else if(pkgName == "binh.app.englishidiom"){}
+    else if(pkgName == "air.com.revisionbuddies.gcsemaths"){}
+    else if(pkgName == "com.educationapps.gojimo"){}
+    else if(pkgName == "com.solvus_lab.android.BibleEN_kjv"){}
+    else if(pkgName == "org.khanacademy.android"){}
+    else if(pkgName == "com.learnerscloud.igcsemaths.videos"){}
+    else if(pkgName == "org.zezi.gb"){}
+    else if(pkgName == "com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish"){}
+    else if(pkgName == "com.aspartame.RemindMe"){}
+    else if(pkgName == "com.zapp2learn.app"){}
+    else if(pkgName == "com.kuntec.braincafe"){}
+    else if(pkgName == "com.icenta.sudoku.ui"){}
+    else if(pkgName == "com.underwater.geoquiz"){}
+    else if(pkgName == "org.pondar.mathquizfree"){}
+    else if(pkgName == "air.com.panapps.PeriodicTable"){}
+    else if(pkgName == "com.microblink.photomath"){}
+    else if(pkgName == "com.physics.quiz.game1"){}
+    else if(pkgName == "com.codeansoftware.speakforme"){}
+    else if(pkgName == "org.urbian.android.quiz.bible.demo"){}
+    else if(pkgName == "com.socratica.mobile.words"){}
+    else if(pkgName == "lammar.flags"){}
+    else if(pkgName == "org.unver.derstakvimi"){}
+    else if(pkgName == "com.learningmate.goclass.view"){}
+    else if(pkgName == "org.edx.mobile"){}
+    else if(pkgName == "de.rakuun.MyClassSchedule.free"){}
+    else if(pkgName == "com.speedAnatomy.speedAnatomyLite"){}
+    else if(pkgName == "com.studyblue"){}
+    else if(pkgName == "com.class123.teacher"){}
+    else if(pkgName == "com.udacity.android"){}
+    else if(pkgName == "com.udemy.android"){}
+    else if(pkgName == "bbc.mobile.news.ww"){}
+    else if(pkgName == "com.google.android.apps.blogger"){}
+    else if(pkgName == "com.cnn.mobile.android.phone"){}
+    else if(pkgName == "com.google.android.apps.plus"){}
+    else if(pkgName == "com.facebook.katana"){}
+    else if(pkgName == "com.google.android.youtube"){}
+    else if(pkgName == "com.skype.raider"){}
+    else if(pkgName == "com.twitter.android"){}
+    else if(pkgName == "com.whatsapp"){}
+    else if(pkgName == "com.mybio.apps"){}
+    else if(pkgName == "com.school.app"){}
+    else if(pkgName == "com.flyersoft.moonreader"){}
+    else if(pkgName == "com.hed.app"){}
+    else if(pkgName == "com.app.dailymanna2015"){}
+    else if(pkgName == "com.youth.life"){}	
+    else if(pkgName == "com.google.android.apps.docs.editors.docs"){}
+    else if(pkgName == "ng.com.efiko.quiz"){}
+    else if(pkgName == "com.google.android.apps.classroom"){}
+    else if(pkgName == "com.gidimo"){}
+    else if(pkgName == "com.google.android.apps.docs.editors.sheets"){}
+    else if(pkgName == "com.twitter.android"){}
+    else if(pkgName == "com.whatsapp"){}
+    else if(pkgName == "com.facebook.katana"){}
+    else if(pkgName == "com.linkedin.android"){}
+    else if(pkgName == "com.google.android.apps.plus"){}
+    else if(pkgName == "com.bbm"){}
+    else if(pkgName == "com.tencent.mm"){}
+    else if(pkgName == "com.skype.raider"){}
+    else if(pkgName == "com.sbreader"){}
 	else {
+		json.put("name", appName).put("activity", appIFormated).put("package", pkgName).put("path", "file://"+appDir+"/icons/"+ pkgName+".png");
+        jArray.add(json);
 		//jArray2.put(jArray[i]);
-		jArray2[jArray2.size()] = jArray[i];
+		// jArray2[jArray2.size()] = jArray[i];
 	}
-								 }
+								 
                              }
 							 
 														 
@@ -314,7 +311,7 @@ public class installedapps extends CordovaPlugin {
                      }// Turns the JSON array into a string and returns the value. 
 
                      // String results = jArray.toString();				
-                     String results = jArray2.toString();				
+                     String results = jArray.toString();				
 
                      try {
 						callbackContext.success(new JSONObject().put("returnVal", results));
