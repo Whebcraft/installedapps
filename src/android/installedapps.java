@@ -228,9 +228,11 @@ public class installedapps extends CordovaPlugin {
 
                                  JSONObject json = new JSONObject();
                                  json.put("name", appName).put("activity", appIFormated).put("package", pkgName).put("path", "file://"+appDir+"/icons/"+ pkgName+".png");				                            
-		jArray.put(json);
+		// jArray.put(json);
+		jArray.add(json);
 								 
-								 for(int i=0; i < jArray.size(); i++){
+								 arrSize = jArray.size();
+								 for(int i=0; i < arrSize; i++){
     if(jArray[i][2] == "com.chronicles.sb"){}
 	else if(jArray[i][2] == "com.smartOS"){}
     else if(jArray[i][2] == "com.extwebtech.bibliography"){}
