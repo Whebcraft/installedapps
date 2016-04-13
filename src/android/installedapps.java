@@ -230,70 +230,70 @@ public class installedapps extends CordovaPlugin {
                                 
 						// com.apptest	
       						
-    if(pkgName.equals("com.chronicles.sb")){ }
-	else if(pkgName.equals("com.smartOS")){}
-    else if(pkgName.equals("com.extwebtech.bibliography")){}
-    else if(pkgName.equals("com.Phaedrus.EarwigFree")){}
-    else if(pkgName.equals("com.funbox.englishidioms")){}
-    else if(pkgName.equals("binh.app.englishidiom")){}
-    else if(pkgName.equals("air.com.revisionbuddies.gcsemaths")){}
-    else if(pkgName.equals("com.educationapps.gojimo")){}
-    else if(pkgName.equals("com.solvus_lab.android.BibleEN_kjv")){}
-    else if(pkgName.equals("org.khanacademy.android")){}
-    else if(pkgName.equals("com.learnerscloud.igcsemaths.videos")){}
-    else if(pkgName.equals("org.zezi.gb")){}
-    else if(pkgName.equals("com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish")){}
-    else if(pkgName.equals("com.aspartame.RemindMe")){}
-    else if(pkgName.equals("com.zapp2learn.app")){}
-    else if(pkgName.equals("com.kuntec.braincafe")){}
-    else if(pkgName.equals("com.icenta.sudoku.ui")){}
-    else if(pkgName.equals("com.underwater.geoquiz")){}
-    else if(pkgName.equals("org.pondar.mathquizfree")){}
-    else if(pkgName.equals("air.com.panapps.PeriodicTable")){}
-    else if(pkgName.equals("com.microblink.photomath")){}
-    else if(pkgName.equals("com.physics.quiz.game1")){}
-    else if(pkgName.equals("com.codeansoftware.speakforme")){}
-    else if(pkgName.equals("org.urbian.android.quiz.bible.demo")){}
-    else if(pkgName.equals("com.socratica.mobile.words")){}
-    else if(pkgName.equals("lammar.flags")){}
-    else if(pkgName.equals("org.unver.derstakvimi")){}
-    else if(pkgName.equals("com.learningmate.goclass.view")){}
-    else if(pkgName.equals("org.edx.mobile")){}
-    else if(pkgName.equals("de.rakuun.MyClassSchedule.free")){}
-    else if(pkgName.equals("com.speedAnatomy.speedAnatomyLite")){}
-    else if(pkgName.equals("com.studyblue")){}
-    else if(pkgName.equals("com.class123.teacher")){}
-    else if(pkgName.equals("com.udacity.android")){}
-    else if(pkgName.equals("com.udemy.android")){}
-    else if(pkgName.equals("bbc.mobile.news.ww")){}
-    else if(pkgName.equals("com.google.android.apps.blogger")){}
-    else if(pkgName.equals("com.cnn.mobile.android.phone")){}
-    else if(pkgName.equals("com.google.android.apps.plus")){}
-    else if(pkgName.equals("com.facebook.katana")){}
-    else if(pkgName.equals("com.google.android.youtube")){}
-    else if(pkgName.equals("com.skype.raider")){}
-    else if(pkgName.equals("com.twitter.android")){}
-    else if(pkgName.equals("com.whatsapp")){}
-    else if(pkgName.equals("com.mybio.apps")){}
-    else if(pkgName.equals("com.school.app")){}
-    else if(pkgName.equals("com.flyersoft.moonreader")){}
-    else if(pkgName.equals("com.hed.app")){}
-    else if(pkgName.equals("com.app.dailymanna2015")){}
-    else if(pkgName.equals("com.youth.life")){}	
-    else if(pkgName.equals("com.google.android.apps.docs.editors.docs")){}
-    else if(pkgName.equals("ng.com.efiko.quiz")){}
-    else if(pkgName.equals("com.google.android.apps.classroom")){}
-    else if(pkgName.equals("com.gidimo")){}
-    else if(pkgName.equals("com.google.android.apps.docs.editors.sheets")){}
-    else if(pkgName.equals("com.twitter.android")){}
-    else if(pkgName.equals("com.whatsapp")){}
-    else if(pkgName.equals("com.facebook.katana")){}
-    else if(pkgName.equals("com.linkedin.android")){}
-    else if(pkgName.equals("com.google.android.apps.plus")){}
-    else if(pkgName.equals("com.bbm")){}
-    else if(pkgName.equals("com.tencent.mm")){}
-    else if(pkgName.equals("com.skype.raider")){}
-    else if(pkgName.equals("com.sbreader")){}
+    if(pkgName.equals("com.chronicles.sb")){ String pkgName = "null";}
+	else if(pkgName.equals("com.smartOS")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.extwebtech.bibliography")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.Phaedrus.EarwigFree")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.funbox.englishidioms")){ String pkgName = "null"; }
+    else if(pkgName.equals("binh.app.englishidiom")){ String pkgName = "null"; }
+    else if(pkgName.equals("air.com.revisionbuddies.gcsemaths")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.educationapps.gojimo")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.solvus_lab.android.BibleEN_kjv")){ String pkgName = "null"; }
+    else if(pkgName.equals("org.khanacademy.android")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.learnerscloud.igcsemaths.videos")){ String pkgName = "null"; }
+    else if(pkgName.equals("org.zezi.gb")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.aspartame.RemindMe")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.zapp2learn.app")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.kuntec.braincafe")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.icenta.sudoku.ui")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.underwater.geoquiz")){ String pkgName = "null"; }
+    else if(pkgName.equals("org.pondar.mathquizfree")){ String pkgName = "null"; }
+    else if(pkgName.equals("air.com.panapps.PeriodicTable")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.microblink.photomath")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.physics.quiz.game1")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.codeansoftware.speakforme")){ String pkgName = "null"; }
+    else if(pkgName.equals("org.urbian.android.quiz.bible.demo")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.socratica.mobile.words")){ String pkgName = "null"; }
+    else if(pkgName.equals("lammar.flags")){ String pkgName = "null"; }
+    else if(pkgName.equals("org.unver.derstakvimi")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.learningmate.goclass.view")){ String pkgName = "null"; }
+    else if(pkgName.equals("org.edx.mobile")){ String pkgName = "null"; }
+    else if(pkgName.equals("de.rakuun.MyClassSchedule.free")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.speedAnatomy.speedAnatomyLite")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.studyblue")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.class123.teacher")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.udacity.android")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.udemy.android")){ String pkgName = "null"; }
+    else if(pkgName.equals("bbc.mobile.news.ww")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.google.android.apps.blogger")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.cnn.mobile.android.phone")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.google.android.apps.plus")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.facebook.katana")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.google.android.youtube")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.skype.raider")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.twitter.android")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.whatsapp")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.mybio.apps")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.school.app")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.flyersoft.moonreader")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.hed.app")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.app.dailymanna2015")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.youth.life")){ String pkgName = "null"; }	
+    else if(pkgName.equals("com.google.android.apps.docs.editors.docs")){ String pkgName = "null"; }
+    else if(pkgName.equals("ng.com.efiko.quiz")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.google.android.apps.classroom")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.gidimo")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.google.android.apps.docs.editors.sheets")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.twitter.android")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.whatsapp")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.facebook.katana")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.linkedin.android")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.google.android.apps.plus")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.bbm")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.tencent.mm")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.skype.raider")){ String pkgName = "null"; }
+    else if(pkgName.equals("com.sbreader")){ String pkgName = "null"; }
 	else {
 		json.put("name", appName).put("activity", appIFormated).put("package", pkgName).put("path", "file://"+appDir+"/icons/"+ pkgName+".png");
         jArray.put(json);
