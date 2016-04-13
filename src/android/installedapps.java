@@ -203,6 +203,7 @@ public class installedapps extends CordovaPlugin {
                 	
                 	 JSONArray jArray = new JSONArray();
                 	 JSONArray jArray2 = new JSONArray();
+					 JSONObject json = new JSONObject();
 
                      List<ApplicationInfo> packages = pm.getInstalledApplications(PackageManager.GET_META_DATA);
 
@@ -226,7 +227,7 @@ public class installedapps extends CordovaPlugin {
 
                                  String appIFormated = appIntent[1].substring(0, appIntent[1].length() - 2);
 
-                                 JSONObject json = new JSONObject();
+                                
 								 
     if(pkgName == "com.chronicles.sb"){}
 	else if(pkgName == "com.smartOS"){}
@@ -295,8 +296,6 @@ public class installedapps extends CordovaPlugin {
 	else {
 		json.put("name", appName).put("activity", appIFormated).put("package", pkgName).put("path", "file://"+appDir+"/icons/"+ pkgName+".png");
         jArray.put(json);
-		//jArray2.put(jArray[i]);
-		// jArray2[jArray2.size()] = jArray[i];
 	}
 								 
                              }
