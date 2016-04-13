@@ -294,7 +294,7 @@ public class installedapps extends CordovaPlugin {
     else if(pkgName == "com.sbreader"){}
 	else {
 		json.put("name", appName).put("activity", appIFormated).put("package", pkgName).put("path", "file://"+appDir+"/icons/"+ pkgName+".png");
-        jArray.add(json);
+        jArray.put(json);
 		//jArray2.put(jArray[i]);
 		// jArray2[jArray2.size()] = jArray[i];
 	}
