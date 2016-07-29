@@ -10,7 +10,7 @@
     </engines>
 
     <description>This plugin returns installed application information for launching an app.  Also exports all app icons into DOMLauncher directory folder.</description>
-    <author>Aricwithana - mraricwithana@domlauncher.com</author>
+    <author>Whebcraft</author>
     <keywords></keywords>
 
     <license>CC4.0NCAttrib</license>
