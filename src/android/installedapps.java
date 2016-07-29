@@ -227,16 +227,8 @@ public class installedapps extends CordovaPlugin {
 
                                  String appIFormated = appIntent[1].substring(0, appIntent[1].length() - 2);
 
-                                
-						// com.apptest	
-      						
-    if(pkgName.equals("com.chronicles.sb") || pkgName.equals("com.smartOS") || pkgName.equals("com.extwebtech.bibliography") || pkgName.equals("com.Phaedrus.EarwigFree") || pkgName.equals("com.funbox.englishidioms") || pkgName.equals("binh.app.englishidiom") || pkgName.equals("air.com.revisionbuddies.gcsemaths") || pkgName.equals("com.educationapps.gojimo") || pkgName.equals("com.solvus_lab.android.BibleEN_kjv") || pkgName.equals("org.khanacademy.android") || pkgName.equals("com.learnerscloud.igcsemaths.videos") || pkgName.equals("org.zezi.gb") || pkgName.equals("com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish") || pkgName.equals("com.aspartame.RemindMe") || pkgName.equals("com.zapp2learn.app") || pkgName.equals("com.kuntec.braincafe") || pkgName.equals("com.icenta.sudoku.ui") || pkgName.equals("com.underwater.geoquiz") || pkgName.equals("org.pondar.mathquizfree") || pkgName.equals("air.com.panapps.PeriodicTable") || pkgName.equals("com.microblink.photomath") || pkgName.equals("com.physics.quiz.game1") || pkgName.equals("com.codeansoftware.speakforme") || pkgName.equals("org.urbian.android.quiz.bible.demo") || pkgName.equals("com.socratica.mobile.words") || pkgName.equals("lammar.flags") || pkgName.equals("org.unver.derstakvimi") || pkgName.equals("com.learningmate.goclass.view") || pkgName.equals("org.edx.mobile") || pkgName.equals("de.rakuun.MyClassSchedule.free") || pkgName.equals("com.speedAnatomy.speedAnatomyLite") || pkgName.equals("com.studyblue") || pkgName.equals("com.class123.teacher") || pkgName.equals("com.udacity.android") || pkgName.equals("com.udemy.android") || pkgName.equals("bbc.mobile.news.ww") || pkgName.equals("com.google.android.apps.blogger") || pkgName.equals("com.cnn.mobile.android.phone") || pkgName.equals("com.google.android.apps.plus") || pkgName.equals("com.facebook.katana") || pkgName.equals("com.google.android.youtube") || pkgName.equals("com.skype.raider") || pkgName.equals("com.twitter.android") || pkgName.equals("com.whatsapp") || pkgName.equals("com.mybio.apps") || pkgName.equals("com.school.app") || pkgName.equals("com.flyersoft.moonreader") || pkgName.equals("com.hed.app") || pkgName.equals("com.app.dailymanna2015") || pkgName.equals("com.youth.life") || pkgName.equals("com.google.android.apps.docs.editors.docs") || pkgName.equals("ng.com.efiko.quiz") || pkgName.equals("com.google.android.apps.classroom") || pkgName.equals("com.gidimo") || pkgName.equals("com.google.android.apps.docs.editors.sheets") || pkgName.equals("com.twitter.android") || pkgName.equals("com.whatsapp") || pkgName.equals("com.facebook.katana") || pkgName.equals("com.linkedin.android") || pkgName.equals("com.google.android.apps.plus") || pkgName.equals("com.bbm") || pkgName.equals("com.tencent.mm") || pkgName.equals("com.skype.raider") || pkgName.equals("com.sbreader")){
-		
-	}
-	else {
 		json.put("name", appName).put("activity", appIFormated).put("package", pkgName).put("path", "file://"+appDir+"/icons/"+ pkgName+".png");
         jArray.put(json);
-	}
 								 
                              }
 							 
